@@ -1,0 +1,16 @@
+========================================
+ SMART EXPENSE DATA PIPELINE
+========================================
+
+[1/2] Cleaning data...
+
+Data cleaning completed!
+Rows after cleaning: 10
+
+[2/2] Loading data into PostgreSQL...
+
+Data loaded successfully into PostgreSQL!
+
+========================================
+ PIPELINE COMPLETED SUCCESSFULLY
+========================================
