@@ -23,6 +23,11 @@ def clean_expense_data(input_file, output_file):
     
     df["category"] = df["category"].str.strip().str.title()
 
+    output
+
+    Data cleaning completed!
+Rows after cleaning: 10
+
     # Standardize payment method
     df["payment_method"] = df["payment_method"].str.strip().str.upper()
 
