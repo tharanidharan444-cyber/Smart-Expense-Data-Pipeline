@@ -9,3 +9,20 @@ CREATE TABLE expenses (
     description TEXT
 );
 
+output
+
+Data cleaning completed!
+Rows after cleaning: 10
+
+ id | expense_date | category      | amount | payment_method | description
+----+--------------+---------------+--------+----------------+------------
+ 1  | 2026-09-01   | Food          | 250.00 | UPI            | Lunch
+ 2  | 2026-09-01   | Travel        | 80.00  | CASH           | Bus
+ 3  | 2026-09-02   | Food          | 320.00 | CARD           | Dinner
+ 4  | 2026-09-02   | Shopping      | 1200.00| UPI            | Clothes
+ 5  | 2026-09-03   | Travel        | 150.00 | UPI            | Cab
+ 6  | 2026-09-03   | Entertainment | 500.00 | CARD           | Movie
+ 7  | 2026-09-04   | Food          | 180.00 | CASH           | Breakfast
+ 8  | 2026-09-04   | Shopping      | 700.00 | UPI            | Books
+ 9  | 2026-09-05   | Travel        | 100.00 | CASH           | Bus
+10  | 2026-09-05   | Food          | 450.00 | CARD           | Dinner
