@@ -10,7 +10,7 @@ def load_data():
         host="localhost",
         database="expense_db",
         user="postgres",
-        password="YOUR_PASSWORD",
+        password="1234",
         port="5432"
     )
 
