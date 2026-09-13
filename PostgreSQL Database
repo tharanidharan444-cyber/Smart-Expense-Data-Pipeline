@@ -1,0 +1,11 @@
+CREATE DATABASE expense_db;
+
+CREATE TABLE expenses (
+    id SERIAL PRIMARY KEY,
+    expense_date DATE,
+    category VARCHAR(50),
+    amount DECIMAL(10,2),
+    payment_method VARCHAR(30),
+    description TEXT
+);
+
