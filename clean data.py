@@ -34,7 +34,7 @@ Rows after cleaning: 10
     df.to_csv(output_file, index=False)
 
     print("Data cleaning completed!")
-    print(f"Rows after cleaning: {len(df)}")
+    print(f"Rows after cleaning: {len(df)}"
 
 
 if __name__ == "__main__":
