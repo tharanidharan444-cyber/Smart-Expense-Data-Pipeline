@@ -5,6 +5,21 @@ A beginner-friendly end-to-end Data Engineering project that processes expense d
 
 CSV → Python → Data Cleaning → PostgreSQL → SQL Analytics
 
+CSV Expense Data
+       ↓
+   Python ETL
+       ↓
+ Data Cleaning
+       ↓
+Transformation
+       ↓
+ PostgreSQL
+       ↓
+ Analytics Queries
+       ↓
+ Dashboard / Insights
+ 
+
 Technologies
 
 - Python
